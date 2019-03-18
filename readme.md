@@ -1,25 +1,24 @@
-# HSGS Hackathon 2018
+# HSGS Hackathon 2018 - Team V+IOI
 
-## Đề bài
+2D puzzle games utilizing [ReactJS](https://reactjs.org) and [react-gameboard](https://gitlab.com/deltarena/react-gameboard).
 
-// Link đề bài
+The products of all teams are hosted on: [http://hsgs-hackathon-18.herokuapp.com](http://hsgs-hackathon-18.herokuapp.com).
+Gitlab repository: [https://gitlab.com/deltarena/hsgs-hackathon-18](https://gitlab.com/deltarena/hsgs-hackathon-18)
 
-## Viết như nào?
+My team's games are:
+1. N13
+2. N30
+3. N31
+4. S01
+5. S50
+6. S51
 
-1.  Học [React](https://reactjs.org)
-2.  Học [react-gameboard](https://gitlab.com/deltarena/react-gameboard)
-3.  Xem qua các [ví dụ](https://gitlab.com/deltarena/hsgs-hackathon-18/tree/master/example)
-4.  Nhận bài
-5.  Fork repo này
-6.  ???
-7.  💰
+## Run our games locally
 
-## Thử nghiệm code của bạn
-
-Hãy xem ví dụ để thêm sản phẩm vào [storybook](https://storybook.js.org) trong repo này.
-
-Để chạy Storybook:
+Clone the repository, then run the following commands:
 
 ```bash
+yarn add https://gitlab.com/deltarena/react-gameboard
+npm install
 npm run storybook
 ```
