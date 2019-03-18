@@ -1,0 +1,157 @@
+.s50 {
+  .game-play {
+    padding-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .log {
+    padding: 20px;
+    padding-top: 10px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .error {
+    background-color: rgb(223, 70, 31);
+    border-radius: 8px;
+    font-family: "Arial";
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .won {
+    background-color: green;
+    border-radius: 8px;
+    font-family: "Arial";
+    color: ghostwhite;
+    font-size: 14px;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .square {
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+    background-color: white;
+  }
+  .allowHovered {
+    background-color: rgb(79, 224, 79);
+  }
+  .wrongHovered {
+    background-color: rgb(247, 101, 101);
+  }
+  .filled { // rgb(255, 201, 14)
+    background-color: rgb(218, 238, 38); 
+  }
+  .top {
+    border-top: 0.5px solid black;
+  }
+  .bottom {
+    border-bottom: 0.5px solid black;
+  }
+  .left {
+    border-left: 0.5px solid black;
+  }
+  .right {
+    border-right: 0.5px solid black;
+  }
+  .erasetop {
+    border-top: 0.5px solid rgb(218, 238, 38);
+  }
+  .erasebottom {
+    border-bottom: 0.5px solid rgb(218, 238, 38);
+  }
+  .eraseleft {
+    border-left: 0.5px solid rgb(218, 238, 38);
+  }
+  .eraseright {
+    border-right: 0.5px solid rgb(218, 238, 38);
+  }
+
+  button {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .undo {
+    width: 80px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 13px;
+    background-color: white; 
+    color: black; 
+    border-radius: 8px;
+    border: 2px solid green;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .undo:hover {
+    background-color: green;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .rotate {
+    width: 80px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 13px;
+    background-color: white; 
+    color: black; 
+    border-radius: 8px;
+    border: 2px solid #008CBA;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .rotate:hover {
+    background-color: #008CBA;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .flip {
+    width: 80px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 13px;
+    background-color: white; 
+    color: black; 
+    border-radius: 8px;
+    border: 2px solid red;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .flip:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .restart {
+    width: 80px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 13px;
+    background-color: white; 
+    color: black; 
+    border-radius: 8px;
+    border: 2px solid rgb(199, 36, 177);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .restart:hover {
+    background-color: rgb(199, 36, 177);
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+}

@@ -1,0 +1,58 @@
+.n31 {
+  .square {
+    color: blue;
+    font-weight: bold;
+    width: 45px;
+    height: 44px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 18px;
+    border-color: black;
+  }
+  .square.hidden {
+    color: red;
+    font-weight: normal;
+  }
+  .square.hidden.white {
+    background-color: white;
+  }
+  .square.white {
+    background-color: white;
+  }
+  .square.black {
+    background-color: lightgrey;
+  }
+  .square.hidden.black {
+    background-color: lightgrey;
+  }
+
+  .invisible {
+    border: none;
+    padding-right: 60px;
+  }
+  .invisible.forLog {
+    padding-right: 50px;
+  }
+
+  .log {
+    border: 3px solid lightgrey;
+    border-style: dotted;
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 98%;          //max-width 100% - 1% padding + 1% padding  
+
+    .error {
+      color: brown;
+      font-size: 15px;
+      font-family: "Verdana"
+    }
+    .won {
+      color: green;
+      font-size: 20px;
+      font-family: "Verdana";
+    }
+  }
+}
